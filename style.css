@@ -1,0 +1,760 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,200i,300,300i,400,400i,600,600i,700,700i,900,900i&display=swap');
+.container {
+    max-width: 960px;
+    margin: auto;
+    box-sizing: border-box;
+}
+
+#bir {
+    background-color: #fcdb00;
+}
+
+#bir i {
+    font-size: 1.3em;
+}
+
+i {
+    margin-top: 75px;
+}
+
+nav img {
+    margin-left: 365px;
+}
+
+.texth2 {
+    font-size: 48px;
+    line-height: 18px;
+    color: #222222;
+    font-family: "Source Sans Pro";
+    font-weight: 700;
+    margin-top: 260px;
+    text-align: center;
+}
+
+.paragraph {
+    width: 537px;
+    height: 168px;
+    font-size: 20px;
+    line-height: 24px;
+    color: #222222;
+    font-family: "Source Sans Pro";
+    font-weight: 400;
+    text-align: center;
+    margin: auto;
+    margin-top: 33px;
+}
+
+#btn1 {
+    width: 256px;
+    height: 56px;
+    border: 2px solid black;
+    padding-left: 74px;
+    padding-right: 74px;
+    padding-top: 14px;
+    padding-bottom: 25px;
+    background-color: transparent;
+    outline: none;
+    font: 700 1.3em "Source Sans Pro";
+    cursor: pointer;
+    margin-left: 36%;
+    transition: background-color 0.4s ease, color 0.4s ease-out;
+}
+
+#btn1:hover {
+    background-color: black;
+    color: #fcdb00;
+}
+
+#test {
+    padding-bottom: 270px;
+}
+
+.texth2s {
+    width: 761px;
+    font-size: 32px;
+    line-height: 32px;
+    color: #010101;
+    font-family: "Source Sans Pro";
+    font-weight: 700;
+    text-align: center;
+    margin: auto;
+    margin-top: 115px;
+}
+
+.paragraph2 {
+    width: 761px;
+    height: 190px;
+    font-size: 20px;
+    line-height: 24px;
+    color: #898989;
+    font-family: "Source Sans Pro";
+    font-weight: 400;
+    text-align: center;
+    margin: auto;
+    margin-top: 21px;
+}
+
+#flex1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.info {
+    width: 250px;
+    height: 250px;
+    margin-bottom: 20px;
+    margin-right: 46px;
+}
+
+.h2s {
+    font-size: 22px;
+    line-height: 24px;
+    color: #010101;
+    font-family: "Source Sans Pro";
+    font-weight: 700;
+    margin: auto;
+    position: relative;
+    left: 65px;
+    bottom: 50px;
+}
+
+.info p {
+    width: 221px;
+    height: 91px;
+    font-size: 16px;
+    line-height: 20px;
+    color: #898989;
+    font-family: "Source Sans Pro";
+    font-weight: 400;
+    margin: auto;
+    position: relative;
+    left: 45px;
+    bottom: 35px;
+}
+
+.info img {
+    width: 50px;
+    height: auto;
+}
+
+.products1 {
+    display: flex;
+    justify-content: space-around;
+    width: 240px;
+    margin: auto;
+    align-content: center;
+    padding-left: 100px;
+}
+
+.product2 {
+    height: 620px;
+    width: 240px;
+    margin-right: 100px;
+}
+
+#font1 {
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+    background-color: #ebebeb;
+    overflow: hidden;
+    text-align: center;
+    margin-bottom: 27px;
+    margin-left: 27px;
+    transition: background-color 0.3s;
+    cursor: pointer;
+}
+
+#font1 i {
+    font-size: 3em;
+    line-height: 24px;
+    color: #010101;
+    position: relative;
+    bottom: 30%;
+    transition: color 0.3s;
+}
+
+#font1:hover {
+    background-color: black;
+}
+
+#font1:hover i {
+    color: white;
+}
+
+.h2product {
+    font-size: 24px;
+    line-height: 24px;
+    color: #010101;
+    font-family: "Source Sans Pro";
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.productsp {
+    width: 170px;
+    font-size: 14px;
+    line-height: 24px;
+    color: #898989;
+    font-family: "Source Sans Pro";
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.amount {
+    font-size: 32px;
+    line-height: 24px;
+    color: #010101;
+    font-family: "Source Sans Pro";
+    font-weight: 700;
+    margin-bottom: 6px;
+    text-align: center;
+}
+
+.detail {
+    font-size: 16px;
+    line-height: 48px;
+    color: #898989;
+    font-family: "Source Sans Pro";
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 6px;
+}
+
+.vl {
+    width: 50px;
+    height: 2px;
+    border: 1px solid black;
+}
+
+.btn2 {
+    width: 140px;
+    height: 50px;
+    border: 2px solid black;
+    background-color: transparent;
+    outline: none;
+    font: 700 1em "Source Sans Pro";
+    cursor: pointer;
+    margin-left: 21px;
+    transition: background-color 0.3s, color 0.3s ease-in-out;
+}
+
+.btn2:hover {
+    background-color: black;
+    color: white;
+}
+
+#square {
+    width: 220px;
+    height: 220px;
+    background-color: #222222;
+    position: relative;
+    bottom: 7px;
+}
+
+#circle {
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    border-radius: 50px;
+    margin: auto;
+    position: relative;
+    top: 38%;
+}
+
+.documents {
+    display: flex;
+    flex-wrap: wrap;
+    width: 985px;
+}
+
+.documents2 {
+    margin-bottom: 120px;
+    margin-right: 25px;
+    transition: opacity 0.3s;
+}
+
+.documents2:hover {
+    opacity: 0.9;
+    cursor: pointer;
+    filter: black;
+}
+
+.blackhover {
+    width: 220px;
+    height: 220px;
+    background-color: #222222;
+}
+
+.h2document {
+    font-size: 22px;
+    line-height: 24px;
+    color: #010101;
+    font-family: "Source Sans Pro";
+    font-weight: 700;
+    text-align: center;
+    margin-top: 22px;
+    margin-bottom: 13px;
+}
+
+.pdocument {
+    width: 203px;
+    height: 31px;
+    font-size: 16px;
+    line-height: 20px;
+    color: #898989;
+    font-family: "Source Sans Pro";
+    font-weight: 400;
+    text-align: center;
+}
+
+#hr2 {
+    width: 18px;
+    border: 1px solid black;
+}
+
+#hr1 {
+    height: 18px;
+    width: 1px;
+    border: 1px solid black;
+    position: relative;
+    top: 18px;
+}
+
+#square i {
+    font-size: 1.1em;
+    color: white;
+    position: relative;
+    left: 10px;
+    top: 70px;
+}
+
+.views {
+    font-weight: 300;
+    font-size: 0.9em;
+    color: white;
+    position: relative;
+    top: 54px;
+    left: 33px;
+    font-family: "Source Sans Pro";
+}
+
+.flex3 {
+    display: flex;
+}
+
+.teamsh2 {
+    font-size: 22px;
+    line-height: 24px;
+    color: #010101;
+    font-family: "Source Sans Pro";
+    font-weight: 400;
+    text-align: center;
+}
+
+.teams {
+    margin-right: 79px;
+}
+
+.teams img {
+    margin-left: 30px;
+    margin-bottom: 42px;
+}
+
+.teamsh3 {
+    font-size: 16px;
+    line-height: 20px;
+    color: #898989;
+    font-family: "Source Sans Pro";
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.teamsp {
+    width: 201px;
+    height: 91px;
+    font-size: 14px;
+    line-height: 18px;
+    color: #313841;
+    font-family: "Source Sans Pro";
+    font-weight: 400;
+    text-align: center;
+}
+
+.teams i {
+    font-weight: 600;
+    margin-right: 15px;
+    position: relative;
+    left: 58px;
+    bottom: 100px;
+    transition: opacity 0.3s;
+}
+
+.teams i:hover {
+    opacity: 0.7;
+}
+
+.stat i {
+    font-size: 3em;
+    margin-left: 115px;
+    margin: auto;
+    margin-bottom: 10px;
+    margin-right: 110px;
+}
+
+.stat {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.stat2 h2 {
+    margin-top: 12px;
+    display: flex;
+    margin: auto;
+}
+
+.stat2 h3 {
+    margin: auto;
+    margin-right: 110px;
+}
+
+.stat {
+    align-items: center;
+    transform: translate(55px, -80px);
+}
+
+.johndoe {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.infojohn img {
+    margin-bottom: 15px;
+}
+
+.infojohn h3 {
+    position: relative;
+    bottom: 21px;
+}
+
+.authorjohntext p {
+    width: 535px;
+    font-size: 20px;
+    line-height: 24px;
+    color: #898989;
+    font-family: "Source Sans Pro";
+    font-weight: 400;
+    text-align: center;
+}
+
+.authortext {
+    display: flex;
+    justify-content: space-between;
+}
+
+.authortext i {
+    font-size: 1.3em;
+    opacity: 0.5;
+    margin-left: 150px;
+}
+
+#first-left {
+    position: relative;
+    bottom: 70px;
+}
+
+#second-right {
+    position: relative;
+    right: 150px;
+    bottom: 20px;
+    padding-bottom: 140px;
+}
+
+.contact {
+    display: flex;
+    justify-content: center;
+    transform: translate(40px, -110px);
+}
+
+.contact2 {
+    margin-right: 95px;
+}
+
+.contact2 i {
+    font-size: 1.3em;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 21px;
+}
+
+.inputflex {
+    width: 460px;
+    height: 445px;
+    margin: auto;
+}
+
+input {
+    margin-bottom: 25px;
+    display: flex;
+    width: 480px;
+    height: 52px;
+    outline: none;
+    border: 2px solid black;
+    font-size: 1em;
+    font-family: "Source Sans Pro";
+    padding-left: 14px;
+}
+
+input:placeholder-shown {
+    padding-left: 20px;
+    color: black;
+}
+
+input::placeholder {
+    color: gray;
+}
+
+textarea {
+    height: 206px;
+    width: 480px;
+    outline: none;
+    resize: none;
+    padding-left: 20px;
+    padding-top: 20px;
+    border: 2px solid black;
+    font-family: "Source Sans Pro";
+    font-size: 1em;
+}
+
+.messagebtn {
+    width: 170px;
+    height: 56px;
+    border: 2px solid black;
+    background-color: black;
+    outline: none;
+    font: 700 1em "Source Sans Pro";
+    cursor: pointer;
+    margin-left: 36%;
+    color: white;
+    transition: background-color 0.4s, color 0.4s;
+    margin-top: 25px;
+}
+
+.messagebtn:hover {
+    background-color: white;
+    color: black;
+}
+
+footer {
+    background-color: black;
+}
+
+footer h2:first-child {
+    color: white;
+    padding-top: 90px;
+}
+
+footer input:first-child {
+    width: 605px;
+    height: 53px;
+}
+
+#ftr form {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 108px;
+}
+
+#ftr input::placeholder {
+    font-family: "Source Sans Pro";
+}
+
+#ftr button {
+    width: 170px;
+    height: 53px;
+    border: 2px solid black;
+    background-color: white;
+    outline: none;
+    font: 700 1em "Source Sans Pro";
+    cursor: pointer;
+    color: black;
+    transition: background-color 0.4s, color 0.4s;
+}
+
+#ftr button:hover {
+    background-color: rgb(42, 42, 42);
+    color: white;
+}
+
+.footerpar {
+    color: white;
+    font-size: 1em;
+    line-height: 20px;
+    color: #ffffff;
+    font-family: "Source Sans Pro";
+    font-weight: 300;
+}
+
+.footerinfo {
+    display: flex;
+    justify-content: center;
+}
+
+.address p {
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+
+.address {
+    width: 140px;
+    margin-right: 110px;
+    padding-bottom: 280px;
+}
+
+#authoramin {
+    width: 100%;
+    height: 30px;
+    background-color: #222222;
+    color: white;
+}
+
+#authoramin i {
+    color: white;
+    margin: auto;
+}
+
+#authoramin h3 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    padding-top: 10px;
+}
+
+#test {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 210px;
+}
+
+a {
+    text-decoration: none;
+    outline: none;
+}
+
+nav div {
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav div i {
+    margin-right: 21px;
+    position: relative;
+    bottom: 100px;
+}
+
+.progress-container {
+    width: 100%;
+    height: 8px;
+    background-color: #ccc;
+    left: 0;
+    top: 0;
+    right: 0;
+    position: fixed;
+    z-index: 1;
+}
+
+#myBar {
+    height: 8px;
+    background-color: #fcdb00;
+    widows: 0%;
+}
+
+@media only screen and (max-width: 768px) {
+    body {
+        transition: all 1s;
+    }
+    .product2 {
+        flex-direction: column;
+    }
+    .texth2 {
+        line-height: 40px;
+    }
+    nav img {
+        position: relative;
+        right: 140px;
+    }
+    .paragraph {
+        width: 250px;
+    }
+    #btn1 {
+        position: relative;
+        right: 40px;
+    }
+    h2:first-child {
+        width: 210px;
+    }
+    .paragraph2 {
+        width: 250px;
+    }
+    .products1 {
+        flex-direction: column;
+    }
+    .h2product,
+    .amount,
+    .vl,
+    .detail {
+        position: relative;
+        right: 40px;
+    }
+    .documents {
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+        right: 210px;
+    }
+    .flex3 {
+        position: relative;
+        left: 30px;
+        flex-direction: column;
+        align-items: center;
+    }
+    .stat {
+        position: relative;
+        top: 50px;
+        flex-direction: column;
+        align-items: center;
+    }
+    .stat2 {
+        align-content: center;
+        position: relative;
+        right: 50px;
+    }
+    .stat2 h2 {
+        position: relative;
+        left: 10px;
+        margin-bottom: 5px;
+    }
+    .stat2 h3 {
+        margin-bottom: 15px;
+    }
+    .product h2 {
+        position: relative;
+        right: 40px;
+    }
+    .contact {
+        flex-direction: column;
+        align-items: center;
+    }
+    input,
+    textarea {
+        width: 400px;
+    }
+}
