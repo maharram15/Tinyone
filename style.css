@@ -398,12 +398,11 @@ nav img {
     opacity: 0.7;
 }
 
-.stat i {
+.stat2 i {
+    display: flex;
+    justify-content: center;
     font-size: 3em;
-    margin-left: 115px;
-    margin: auto;
     margin-bottom: 10px;
-    margin-right: 110px;
 }
 
 .stat {
@@ -413,19 +412,24 @@ nav img {
     align-items: center;
 }
 
+.stat2 {
+    margin-right: 110px;
+}
+
 .stat2 h2 {
     margin-top: 12px;
     display: flex;
+    display: flex;
+    justify-content: center;
     margin: auto;
 }
 
 .stat2 h3 {
-    margin: auto;
-    margin-right: 110px;
+    display: flex;
+    justify-content: center;
 }
 
 .stat {
-    align-items: center;
     transform: translate(55px, -80px);
 }
 
@@ -586,7 +590,7 @@ footer input:first-child {
     font: 700 1em "Source Sans Pro";
     cursor: pointer;
     color: black;
-    transition: background-color 0.4s, color 0.4s;
+    transition: background-color 0.3s, color 0.3s;
 }
 
 #ftr button:hover {
